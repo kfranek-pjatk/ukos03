@@ -2,9 +2,11 @@
 
 int main()
 {
-  int a, b, c;
-  std::cout << "Podaj 3 liczby" << std::endl;
-  std::cin >> a >> b >> c;
-  std::cout << (a + b + c) / 3 << std::endl;
+  int a, b, c, d;
+  float srednia;
+  std::cout << "Podaj 4 liczby" << std::endl;
+  std::cin >> a >> b >> c >> d;
+  srednia = (a + b + c + d) / 4.0;
+  std::cout << srednia << std::endl;
   return 0;
 }
